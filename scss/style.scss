@@ -1,0 +1,22 @@
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./components/bootstrap";
+@import "./components/botones";
+
+@import "./layout/body.scss";
+@import "./layout/body.ayuda.scss";
+@import "./layout/body.bolsadecompra.scss";
+@import "./layout/body.iniciarsesion.scss";
+@import "./layout/body.newcollection.scss";
+@import "./layout/main-ayuda.scss";
+@import "./layout/main-index.scss";
+@import "./layout/footer.scss";
+@import "./layout/main-newcollection.scss";
+@import "./layout/main-bolsadecompra.scss";
+@import "./layout/main-iniciarsesion.scss";
+@import "./layout/header.scss";
+
+@import "./utilities/funciones";
+@import "./utilities/mixins";
+@import "./utilities/variables";

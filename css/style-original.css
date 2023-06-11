@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(69, 66, 66, 0.119);
+}
+/**
+    camelCase= escribiendoUnaPalabra
+    kebab= escribiendo-una-palabra
+    snake_case= escribiendo_una_palabra
+
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+*/
+h1{
+    letter-spacing: 5px;
+}
+
+/**main**/
+.seccion-principal{
+    width: 100;
+    height: 1000px;
+    background-image: url("../assets/img/vogue-unsplash.avif");
+    background-size: cover;
+}
+.buscarProductos{
+    text-align: right;
+}
+.conteinerFotos{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contenedor-imagenes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.imagen {
+margin-bottom: 20px;
+text-align: center;
+}
+.imagen img {
+max-width: 100%;
+height: auto;
+}
+.imagen p {
+margin-top: 10px;
+font-size: 16px;
+color: #333;
+line-height: 1.5;
+}
+/** para empezar a trabajar sobre el título y que las propiedades que aplico aca sean diferentes a las demás, por ejemplo quiero modificar h2*/
+
+.pieDePagina {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lista li {
+    flex-basis: calc(33.33% - 20px);
+}
+
+.noticia-5 {
+    flex-basis: 100%;
+}
+.informacionFooter2 h3,
+.informacionFooter3 h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+.informacionFooter2 h2,
+.informacionFooter3 h2 {
+    margin-top: 0;
+}
+
+.inicioSesion{
+    text-align: center;
+}
+.mainUno{
+    padding: 20px;
+    margin: 310px;
+}
+.vogueTitulo{
+    font-size: 32px;
+    color: grey;
+}
+
+.fondoPrincipal{
+    width: 100;
+    height: 1000px;
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    background-size: cover;
+}
+.vogueNav{
+font-size: 60px;
+color: salmon;
+text-align: center;
+}
+.miFondo{
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    width: 100;
+    height: 1000px;
+    background-size: cover;
+}
+.comoPodemosAyudarte{
+    font-size: 40px;
+}
+.informacionAbajo{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    min-height: 80vh
+}
+.pieDePaginaAyuda{
+    width: 100%;
+    height: 200px; /* altura del footer */
+    background-color: #4d4b4b53;
+    color: #0e0e0e;
+    text-align: center;
+    padding: 40px;
+}
+.vogueNavegador{
+    color: black;
+    font-size: 40px;
+}
+.fondoBolsa{
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    background-size: cover;
+    width: 100;
+    height: 1000px;
+}
+.contedorBolsa {
+    display: flex;
+    justify-content: space-between;
+}
+.imagenBolsa, .imagen {
+    width: 30%;
+}
+.imagenBolsa img, .imagen img {
+    width: 100%;
+    height: auto;
+}
+.imagenBolsa p, .imagen p, .imagenBolsa strong, .imagen strong, .imagen strong, .imagen p {
+    margin: 0;
+    text-align: center;
+}
+.imagenBolsa strong, .imagen strong {
+    display: block;
+    margin-top: 10px;
+}
+.fondoNew{
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    width: 100;
+    height: 1000px;
+    background-size: cover;
+}
+.vogueNew{
+    font-size: 60px;
+color: black;
+text-align:left
+}
+/* Estilo para la sección principal */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+  /* Estilo para el contenedor de las imágenes */
+.contedorNew {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    grid-template-rows: repeat(4, auto); /* 4 filas con altura automática */
+    grid-gap: 10px; /* Espacio entre las celdas */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  /* Estilo para cada imagen y su respectivo título */
+.imagenNew,
+.imagenNewDos,
+.imagenNewTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.imagenNew img,
+.imagenNewDos img,
+.imagenNewTres img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.imagenNew p,
+.imagenNewDos p,
+.imagenNewTres p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .seccion-principal {
+        height: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .seccion-principal {
+        height: 600px;
+    }
+}
+
+@media (max-width: 375px) {
+    .seccion-principal {
+        height: 400px;
+        background-color: lightpink;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    body {
+    font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+    font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0.189);
+    }
+
+}

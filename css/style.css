@@ -1,258 +1,248 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: rgba(69, 66, 66, 0.119);
-}
-/** 
-    camelCase= escribiendoUnaPalabra
-    kebab= escribiendo-una-palabra
-    snake_case= escribiendo_una_palabra
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-    font-family: 'Lora', serif;
-    font-family: 'Roboto Condensed', sans-serif;
-*/
-h1{
-    letter-spacing: 5px;
-}
+.seccion-principal {
+  width: 100;
+  height: 1000px;
+  background-image: url("../assets/img/vogue-unsplash.avif");
+  background-size: cover; }
 
-/**main**/
-.seccion-principal{
-    width: 100;
-    height: 1000px;
-    background-image: url("../assets/img/vogue-unsplash.avif");
-    background-size: cover;
-}
-.buscarProductos{
-    text-align: right;
-}
-.conteinerFotos{
-    max-width: 800px;
-    margin: 0 auto;
-}
-.contenedor-imagenes{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-.imagen {
-margin-bottom: 20px;
-text-align: center;
-}
-.imagen img {
-max-width: 100%;
-height: auto;
-}
-.imagen p {
-margin-top: 10px;
-font-size: 16px;
-color: #333;
-line-height: 1.5;
-}
-/** para empezar a trabajar sobre el título y que las propiedades que aplico aca sean diferentes a las demás, por ejemplo quiero modificar h2*/
+.miFondo {
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  width: 100;
+  height: 1000px;
+  background-size: cover; }
 
-.pieDePagina {
-    background-color: #f8f8f8;
-    padding: 40px 0;
-}
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.lista li {
-    flex-basis: calc(33.33% - 20px);
-}
+.fondoBolsa {
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  background-size: cover;
+  width: 100;
+  height: 1000px; }
 
-.noticia-5 {
-    flex-basis: 100%;
-}
-.informacionFooter2 h3,
-.informacionFooter3 h3 {
-    margin: 0;
-    padding: 10px 0;
-}
-.informacionFooter2 h2,
-.informacionFooter3 h2 {
-    margin-top: 0;
-}
+.seccion-principal {
+  width: 100;
+  height: 1000px;
+  background-image: url("../assets/img/vogue-unsplash.avif");
+  background-size: cover; }
 
-.inicioSesion{
-    text-align: center;
-}
-.mainUno{
-    padding: 20px;
-    margin: 310px;
-}
-.vogueTitulo{
-    font-size: 32px;
-    color: grey;
-}
+.fondoNew {
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  width: 100;
+  height: 1000px;
+  background-size: cover; }
 
-.fondoPrincipal{
-    width: 100;
-    height: 1000px;
-    background-image: url(../assets/img/vogue-unsplash.avif);
-    background-size: cover;
-}
-.vogueNav{
-font-size: 60px;
-color: salmon;
-text-align: center;
-}
-.miFondo{
-    background-image: url(../assets/img/vogue-unsplash.avif);
-    width: 100;
-    height: 1000px;
-    background-size: cover;
-}
-.comoPodemosAyudarte{
-    font-size: 40px;
-}
-.informacionAbajo{
-    color: black;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Raleway', sans-serif;
-    min-height: 80vh
-}
-.pieDePaginaAyuda{
-    width: 100%;
-    height: 200px; /* altura del footer */
-    background-color: #4d4b4b53;
-    color: #0e0e0e;
-    text-align: center;
-    padding: 40px;
-}
-.vogueNavegador{
-    color: black;
-    font-size: 40px;
-}
-.fondoBolsa{
-    background-image: url(../assets/img/vogue-unsplash.avif);
-    background-size: cover;
-    width: 100;
-    height: 1000px;
-}
-.contedorBolsa {
-    display: flex;
-    justify-content: space-between;
-}
-.imagenBolsa, .imagen {
-    width: 30%;
-}
-.imagenBolsa img, .imagen img {
-    width: 100%;
-    height: auto;
-}
-.imagenBolsa p, .imagen p, .imagenBolsa strong, .imagen strong, .imagen strong, .imagen p {
-    margin: 0;
-    text-align: center;
-}
-.imagenBolsa strong, .imagen strong {
-    display: block;
-    margin-top: 10px;
-}
-.fondoNew{
-    background-image: url(../assets/img/vogue-unsplash.avif);
-    width: 100;
-    height: 1000px;
-    background-size: cover;
-}
-.vogueNew{
-    font-size: 60px;
-color: black;
-text-align:left
-}
-/* Estilo para la sección principal */
+main div h2 {
+  font-size: 40px;
+  color: black;
+  font-style: oblique;
+  text-align: center; }
+
+main div h3 {
+  color: rgba(112, 50, 50, 0.682);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  min-height: 10vh; }
+
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main section {
+    width: 100%; }
+    main section div h2 {
+      text-align: left;
+      color: #9290f1;
+      font-size: 30px;
+      text-decoration: none; }
+    main section div div h2 {
+      text-align: end;
+      text-decoration: none;
+      font-size: 20px;
+      color: #cf1b1b; }
+  main section {
+    max-width: 800px;
+    margin: 0 auto; }
+    main section div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main section div .imagenn {
+        margin-bottom: 20px;
+        text-align: center; }
+        main section div .imagenn p strong {
+          color: #765c8e;
+          font-size: 15px; }
+
+footer {
+  background-color: #cbbdbdba;
+  padding: 40px 0; }
+  footer div {
+    max-width: 1200px;
+    margin: 0 auto; }
+    footer div ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      footer div ul li h2 {
+        font-size: 30px;
+        text-decoration: underline; }
+      footer div ul li h3 {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(19, 19, 22, 0.862); }
+      footer div ul li .informacionfooter2 h2 {
+        margin-top: 0;
+        font-size: 30px;
+        text-decoration: underline; }
+      footer div ul li .informacionfooter2 h3 {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 20px;
+        text-decoration: none;
+        color: #181819; }
+      footer div ul li .informacionfooter2 .informacionfooter3 h2 {
+        margin-top: 0;
+        font-size: 30px;
+        text-decoration: underline; }
+      footer div ul li .informacionfooter2 .informacionfooter3 h3 {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(96, 96, 230, 0.5); }
+
+main {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  main section div {
     display: flex;
     justify-content: center;
-}
+    margin: 0 auto; }
+    main section div .imagenNew,
+    main section div .imagenNewDos,
+    main section div .imagenNewTres {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%; }
+      main section div .imagenNew img,
+      main section div .imagenNewDos img,
+      main section div .imagenNewTres img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px; }
+      main section div .imagenNew p,
+      main section div .imagenNewDos p,
+      main section div .imagenNewTres p {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0; }
 
-  /* Estilo para el contenedor de las imágenes */
-.contedorNew {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
-    grid-template-rows: repeat(4, auto); /* 4 filas con altura automática */
-    grid-gap: 10px; /* Espacio entre las celdas */
-    max-width: 1200px;
-    margin: 0 auto;
-}
-  /* Estilo para cada imagen y su respectivo título */
-.imagenNew,
-.imagenNewDos,
-.imagenNewTres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-}
+main {
+  display: flex;
+  justify-content: space-between; }
+  main .imagenBolsa,
+  main .imagen {
+    width: 30%; }
+    main .imagenBolsa img,
+    main .imagen img {
+      width: 100%;
+      height: auto;
+      border: 2px solid;
+      color: violet; }
+    main .imagenBolsa p,
+    main .imagen p {
+      margin: 0;
+      text-align: center;
+      color: violet; }
+      main .imagenBolsa p strong,
+      main .imagen p strong {
+        color: violet;
+        display: block;
+        margin-top: 10px; }
+  main .imagenBolsa img {
+    border: 2px solid;
+    color: violet; }
+    main .imagenBolsa img p {
+      color: violet; }
+  main .imagenBolsa .imagen img {
+    border: 2px solid;
+    color: violet; }
+  main .imagenBolsa .imagen p {
+    color: violet; }
 
-.imagenNew img,
-.imagenNewDos img,
-.imagenNewTres img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
+main {
+  padding: 20px;
+  margin: 310px; }
+  main div {
+    text-align: center; }
+    main div form fieldset legend:first-of-type {
+      content: "Usuario"; }
+    main div form fieldset legend:last-of-type {
+      content: "Contraseña"; }
+    main div form fieldset label:first-of-type {
+      content: "";
+      font-weight: bold;
+      margin-bottom: 0.5rem; }
+    main div form fieldset label:last-of-type {
+      content: "";
+      font-weight: bold;
+      margin-bottom: 0.5rem; }
+    main div form fieldset input[type="text"], main div form fieldset input[type="password"] {
+      display: block;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      width: 100%; }
+    main div form input[type="submit"], main div form input[type="reset"] {
+      background-color: #007bff;
+      border-radius: 0.25rem;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1rem;
+      margin-right: 0.5rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      transition-duration: 0.3s; }
+      main div form input[type="submit"]:hover, main div form input[type="reset"]:hover {
+        background-color: #0062cc; }
 
-.imagenNew p,
-.imagenNewDos p,
-.imagenNewTres p {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-}
+header nav H1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: pink;
+  background-color: rgba(103, 96, 96, 0.508); }
 
-
-@media (max-width: 1024px) {
-    .seccion-principal {
-        height: 800px;
-    }
-}
-
-@media (max-width: 768px) {
-    .seccion-principal {
-        height: 600px;
-    }
-}
-
-@media (max-width: 375px) {
-    .seccion-principal {
-        height: 400px;
-        background-color: lightpink;
-    }
-}
-
-
-@media screen and (min-width: 1025px) {
-    body {
-    font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-    font-size: 16px;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    body {
-    font-size: 14px;
-    background-color: rgba(128, 128, 128, 0.189);
-    }
-
-}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; }
+  header nav ul li {
+    margin-left: 2rem; }
+    header nav ul li:first-child {
+      margin-left: 0; }
+    header nav ul li .iniciarSesion a {
+      color: #4557f7;
+      text-decoration: none; }
+    header nav ul li .ayuda a {
+      color: #4557f7;
+      text-decoration: none; }
+    header nav ul li .Bolsa de compra a {
+      color: #4557f7;
+      text-decoration: none; }
+    header nav ul li a {
+      color: #4557f7;
+      text-decoration: none; }
+      header nav ul li a:hover {
+        text-decoration: underline; }

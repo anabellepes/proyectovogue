@@ -1,0 +1,46 @@
+header {
+    nav {
+    H1 {
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: pink;
+        background-color: rgba(103, 96, 96, 0.508);
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin-left: 2rem;
+            &:first-child {
+                margin-left: 0;
+            }
+            .iniciarSesion {
+                a {
+                color: #4557f7;
+                text-decoration: none;
+                }
+            }
+            .ayuda {
+                a {
+            color: #4557f7;
+            text-decoration: none;
+                }
+            }
+            .Bolsa de compra {
+                a {
+                color: #4557f7;
+                text-decoration: none;
+                }
+            }
+            a {
+                color: #4557f7;
+                text-decoration: none;
+                &:hover {
+                text-decoration: underline;
+                }
+            }
+        }
+    }
+    }
+}
