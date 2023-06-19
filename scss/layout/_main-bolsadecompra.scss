@@ -1,39 +1,44 @@
 main {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    .imagenBolsa,
-    .imagen {
-    width: 30%;
-    img {
-        width: 100%;
-        height: auto;
-        border: 2px solid;
-        color: violet;
-    }
-    p {
-        margin: 0;
-        text-align: center;
-        color: violet;
-        strong {
-        color: violet;
-        display: block;
-        margin-top: 10px;
+    .imagenBolsa {
+        width: 30%;
+        img {
+            width: 100%;
+            height: auto;
+            border: 2px solid;
+            color: $color-principal ;
+            margin:0;
+            }
+        p {
+            margin: 0;
+            text-align: center;
+            color: $color-principal;
+            strong {
+            color: $color-principal;
+            display: block;
+            margin-top: 10px;
+            }
+            }
         }
-    }
+
+    .imagen {
+        @extend .imagenBolsa
     }
     .imagenBolsa {
-    img {
-        border: 2px solid;
-        color: violet;
-    p {
-        color: violet;
-    }
-    }
+        img {
+            border: 2px solid;
+            color: violet;
+            p {
+            color: violet;
+            }
+        }
     .imagen {
-    img {
-        border: 2px solid;
-        color: violet;
-    }
+        img {
+            border: 2px solid;
+            color: violet;
+        }
     p {
         color: violet;
     }

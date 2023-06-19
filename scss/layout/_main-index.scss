@@ -1,48 +1,57 @@
 main {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    height: 100vh;
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
     section {
         width: 100%;
+        height: auto;
         div {
             h2 {
                 text-align: left;
-                color: rgb(146, 144, 241);
+                color: $color-secundario;
                 font-size: 30px;
                 text-decoration: none;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+            p{
+                color: rgba(175, 58, 58, 0.912);
+                text-decoration: underline;
+                font-size: 20px;
             }
             div {
                 h2 {
-                text-align:end;
-                text-decoration: none;
+                text-align:right;
+                text-decoration:none;
                 font-size: 20px;
-                color: rgb(207, 27, 27);
+                color: $color-secundario;
+                text-transform: uppercase;
+                }
             }
         }
-        }
     }
-
     section {
         max-width: 800px;
         margin: 0 auto;
-
+        padding-bottom: 100px;
         div {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-
             .imagenn{
                 margin-bottom: 20px;
                 text-align: center;
-
                 p {
                     strong {
-                        color: rgb(118, 92, 142);
-                        font-size: 15px;
+                        color: rgba(17, 17, 18, 0.745);
+                        font-size: 30px;
                     }
                 }
             }
         }
     }
-
 }
+
+

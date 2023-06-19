@@ -1,22 +1,29 @@
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
 @import "./base/reset";
 @import "./base/typo";
 
 @import "./components/bootstrap";
 @import "./components/botones";
 
-@import "./layout/body.scss";
-@import "./layout/body.ayuda.scss";
-@import "./layout/body.bolsadecompra.scss";
-@import "./layout/body.iniciarsesion.scss";
-@import "./layout/body.newcollection.scss";
-@import "./layout/main-ayuda.scss";
-@import "./layout/main-index.scss";
-@import "./layout/footer.scss";
-@import "./layout/main-newcollection.scss";
-@import "./layout/main-bolsadecompra.scss";
-@import "./layout/main-iniciarsesion.scss";
-@import "./layout/header.scss";
+@import "./layout/body.index";
+@import "./layout/body.ayuda";
+@import "./layout/body.bolsadecompra";
+@import "./layout/body.iniciarsesion";
+@import "./layout/body.newcollection";
+@import "./layout/main-ayuda";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-newcollection";
+@import "./layout/main-bolsadecompra";
+@import "./layout/main-iniciarsesion";
+@import "./layout/header";
 
-@import "./utilities/funciones";
-@import "./utilities/mixins";
-@import "./utilities/variables";
+@import "./layout/media1440";
+@import "./layout/media1025";
+@import "./layout/media1024";
+@import "./layout/media768";
+@import "./layout/media576";
+@import "./layout/media375";
+@import "./layout/media320";

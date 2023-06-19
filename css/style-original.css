@@ -181,6 +181,12 @@ main {
 }
 
   /* Estilo para el contenedor de las imágenes */
+.agregar{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+
+}
 .contedorNew {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */

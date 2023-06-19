@@ -1,10 +1,32 @@
-@media (max-width: 768px) {
-    .seccion-principal {
-        height: 600px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (max-width: 768px){
     body {
     font-size: 16px;
     }
-}
+    }
+    footer.pieDePagina {
+        width: 100%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        .informacionfooter2{
+            h2{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 10px;
+            }
+        }
+            .informacionfooter3 {
+                h2{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .informacionAbajo{
+            padding-top: 50px;
+        }
+

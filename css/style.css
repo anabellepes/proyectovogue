@@ -6,67 +6,81 @@
   box-sizing: border-box; }
 
 .seccion-principal {
-  width: 100;
-  height: 1000px;
-  background-image: url("../assets/img/vogue-unsplash.avif");
-  background-size: cover; }
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .miFondo {
   background-image: url(../assets/img/vogue-unsplash.avif);
-  width: 100;
-  height: 1000px;
-  background-size: cover; }
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .fondoBolsa {
   background-image: url(../assets/img/vogue-unsplash.avif);
+  height: 100vh;
   background-size: cover;
-  width: 100;
-  height: 1000px; }
+  background-repeat: no-repeat; }
 
-.seccion-principal {
-  width: 100;
-  height: 1000px;
-  background-image: url("../assets/img/vogue-unsplash.avif");
-  background-size: cover; }
+.seccion-principal2 {
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .fondoNew {
   background-image: url(../assets/img/vogue-unsplash.avif);
-  width: 100;
-  height: 1000px;
-  background-size: cover; }
-
-main div h2 {
-  font-size: 40px;
-  color: black;
-  font-style: oblique;
-  text-align: center; }
-
-main div h3 {
-  color: rgba(112, 50, 50, 0.682);
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Raleway', sans-serif;
-  min-height: 10vh; }
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 main {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
+  main div h2 {
+    font-size: 40px;
+    color: black;
+    font-style: oblique;
+    text-align: center; }
+  main .informacionAbajo h3 {
+    color: rgba(112, 50, 50, 0.682);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    min-height: 10vh;
+    padding-bottom: 100px; }
+
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/img/vogue-unsplash.avif);
+  background-size: cover;
+  background-repeat: no-repeat; }
   main section {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     main section div h2 {
       text-align: left;
-      color: #9290f1;
+      color: rgba(128, 128, 128, 0.712);
       font-size: 30px;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    main section div p {
+      color: rgba(175, 58, 58, 0.912);
+      text-decoration: underline;
+      font-size: 20px; }
     main section div div h2 {
-      text-align: end;
+      text-align: right;
       text-decoration: none;
       font-size: 20px;
-      color: #cf1b1b; }
+      color: rgba(128, 128, 128, 0.712);
+      text-transform: uppercase; }
   main section {
     max-width: 800px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 100px; }
     main section div {
       display: flex;
       flex-wrap: wrap;
@@ -75,15 +89,18 @@ main {
         margin-bottom: 20px;
         text-align: center; }
         main section div .imagenn p strong {
-          color: #765c8e;
-          font-size: 15px; }
+          color: rgba(17, 17, 18, 0.745);
+          font-size: 30px; }
 
 footer {
-  background-color: #cbbdbdba;
-  padding: 40px 0; }
+  background-color: rgba(103, 96, 96, 0.508);
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
   footer div {
     max-width: 1200px;
-    margin: 0 auto; }
+    margin: 0; }
     footer div ul {
       display: flex;
       flex-wrap: wrap;
@@ -98,91 +115,111 @@ footer {
         font-size: 20px;
         text-decoration: none;
         color: rgba(19, 19, 22, 0.862); }
-      footer div ul li .informacionfooter2 h2 {
-        margin-top: 0;
-        font-size: 30px;
-        text-decoration: underline; }
-      footer div ul li .informacionfooter2 h3 {
-        margin: 0;
-        padding: 10px 0;
-        font-size: 20px;
-        text-decoration: none;
-        color: #181819; }
-      footer div ul li .informacionfooter2 .informacionfooter3 h2 {
-        margin-top: 0;
-        font-size: 30px;
-        text-decoration: underline; }
-      footer div ul li .informacionfooter2 .informacionfooter3 h3 {
-        margin: 0;
-        padding: 10px 0;
-        font-size: 20px;
-        text-decoration: none;
-        color: rgba(96, 96, 230, 0.5); }
+  footer .informacionfooter2 h2 {
+    margin-top: 0;
+    font-size: 30px;
+    text-decoration: underline; }
+  footer .informacionfooter2 h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #181819; }
+  footer .informacionfooter3 h2 {
+    margin-top: 0;
+    font-size: 30px;
+    text-decoration: underline; }
+  footer .informacionfooter3 h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(96, 96, 230, 0.5); }
 
 main {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-  main section div {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto; }
-    main section div .imagenNew,
-    main section div .imagenNewDos,
-    main section div .imagenNewTres {
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  height: 100vh;
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column; }
+  main .agregar {
+    color: #b35a5a;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px; }
+    main .agregar section div {
+      margin: 0;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 30%; }
-      main section div .imagenNew img,
-      main section div .imagenNewDos img,
-      main section div .imagenNewTres img {
+      justify-content: space-evenly;
+      flex-wrap: nowrap; }
+      main .agregar section div .imagenNew, main .agregar section div .imagenNewDos, main .agregar section div .imagenNewTres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        margin-bottom: 20px; }
+        main .agregar section div .imagenNew img, main .agregar section div .imagenNewDos img, main .agregar section div .imagenNewTres img {
+          max-width: 100%;
+          height: auto; }
+        main .agregar section div .imagenNew p, main .agregar section div .imagenNewDos p, main .agregar section div .imagenNewTres p {
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center; }
+      main .agregar section div .imagenNewDos img {
         max-width: 100%;
-        height: auto;
-        margin-bottom: 10px; }
-      main section div .imagenNew p,
-      main section div .imagenNewDos p,
-      main section div .imagenNewTres p {
+        height: auto; }
+      main .agregar section div .imagenNewDos p {
         font-size: 18px;
         font-weight: bold;
-        text-align: center;
-        margin: 0; }
+        text-align: center; }
+      main .agregar section div .imagenNewTres img {
+        max-width: 100%;
+        height: auto; }
+      main .agregar section div .imagenNewTres p {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center; }
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: space-between; }
-  main .imagenBolsa,
-  main .imagen {
+  main .imagenBolsa, main .imagen {
     width: 30%; }
-    main .imagenBolsa img,
-    main .imagen img {
+    main .imagenBolsa img, main .imagen img {
       width: 100%;
       height: auto;
       border: 2px solid;
-      color: violet; }
-    main .imagenBolsa p,
-    main .imagen p {
+      color: violet;
+      margin: 0; }
+    main .imagenBolsa p, main .imagen p {
       margin: 0;
       text-align: center;
       color: violet; }
-      main .imagenBolsa p strong,
-      main .imagen p strong {
+      main .imagenBolsa p strong, main .imagen p strong {
         color: violet;
         display: block;
         margin-top: 10px; }
-  main .imagenBolsa img {
+  main .imagenBolsa img, main .imagen img {
     border: 2px solid;
     color: violet; }
-    main .imagenBolsa img p {
+    main .imagenBolsa img p, main .imagen img p {
       color: violet; }
-  main .imagenBolsa .imagen img {
+  main .imagenBolsa .imagen img, main .imagen .imagen img {
     border: 2px solid;
     color: violet; }
-  main .imagenBolsa .imagen p {
+  main .imagenBolsa .imagen p, main .imagen .imagen p {
     color: violet; }
 
 main {
   padding: 20px;
-  margin: 310px; }
+  margin: 20px;
+  display: flex;
+  flex-direction: column; }
   main div {
     text-align: center; }
     main div form fieldset legend:first-of-type {
@@ -218,31 +255,81 @@ main {
       main div form input[type="submit"]:hover, main div form input[type="reset"]:hover {
         background-color: #0062cc; }
 
-header nav H1 {
-  font-size: 4rem;
-  text-transform: uppercase;
-  color: pink;
-  background-color: rgba(103, 96, 96, 0.508); }
+header {
+  padding-top: 0px;
+  margin: 0;
+  margin-bottom: 50px; }
+  header nav H1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: pink;
+    background-color: rgba(103, 96, 96, 0.508);
+    padding-top: 10px; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; }
+    header nav ul li {
+      margin-left: 2rem; }
+      header nav ul li:first-child {
+        margin-left: 0; }
+      header nav ul li .iniciarSesion a {
+        color: #4557f7;
+        text-decoration: none; }
+      header nav ul li .ayuda a {
+        color: #4557f7;
+        text-decoration: none; }
+      header nav ul li .Bolsa de compra a {
+        color: #4557f7;
+        text-decoration: none; }
+      header nav ul li a {
+        color: #4557f7;
+        text-decoration: none; }
+        header nav ul li a:hover {
+          text-decoration: underline; }
 
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end; }
-  header nav ul li {
-    margin-left: 2rem; }
-    header nav ul li:first-child {
-      margin-left: 0; }
-    header nav ul li .iniciarSesion a {
-      color: #4557f7;
-      text-decoration: none; }
-    header nav ul li .ayuda a {
-      color: #4557f7;
-      text-decoration: none; }
-    header nav ul li .Bolsa de compra a {
-      color: #4557f7;
-      text-decoration: none; }
-    header nav ul li a {
-      color: #4557f7;
-      text-decoration: none; }
-      header nav ul li a:hover {
-        text-decoration: underline; }
+@media (min-width: 1440px) {
+  .miFondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    background-size: cover;
+    background-repeat: no-repeat; } }
+
+@media screen and (min-width: 1025px) and (min-width: 876px) {
+  body {
+    font-size: 20px; } }
+
+/*solo voy a ir modificando con mas medias
+las cosas que rompen el sitio*/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px; } }
+
+footer.pieDePagina {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px; }
+  footer.pieDePagina .informacionfooter2 h2 {
+    font-size: 20px; }
+  footer.pieDePagina .informacionfooter2 h3 {
+    font-size: 10px; }
+  footer.pieDePagina .informacionfooter3 h2 {
+    font-size: 20px; }
+  footer.pieDePagina .informacionfooter3 h3 {
+    font-size: 10px; }
+
+.informacionAbajo {
+  padding-top: 50px; }
+
+@media (max-width: 375px) {
+  .seccion-principal {
+    height: 400px; } }
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 14px;
+    background-image: url(../assets/img/vogue-unsplash.avif);
+    width: 100;
+    height: 100vh;
+    background-repeat: no-repeat; } }

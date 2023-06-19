@@ -1,4 +1,6 @@
 main{
+    display: flex;
+    flex-direction: column;
     div{
         h2{
             font-size: 40px;
@@ -7,13 +9,14 @@ main{
             text-align: center;
         }
     }
-    div {
+    .informacionAbajo {
         h3{
             color:rgba(112, 50, 50, 0.682);
             text-align: center;
             font-size: 30px;
             font-family: 'Raleway', sans-serif;
-            min-height: 10vh
+            min-height: 10vh;
+            padding-bottom: 100px;
         }
     }
 }

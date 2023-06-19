@@ -1,54 +1,55 @@
 main {
     padding: 20px;
-    margin: 310px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
     div {
-    text-align: center;
+        text-align: center;
         form {
             fieldset {
-            legend {
+                legend {
+                    &:first-of-type {
+                    content: "Usuario";
+                    }
+                    &:last-of-type {
+                    content: "Contraseña";
+                    }
+                }
+            label {
                 &:first-of-type {
-                content: "Usuario";
+                    content: "";
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
                 }
                 &:last-of-type {
-                content: "Contraseña";
+                    content: "";
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                }
+                }
+            input[type="text"], input[type="password"] {
+                display: block;
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+                width: 100%;
                 }
             }
-            label {
-            &:first-of-type {
-                content: "";
-                font-weight: bold;
-                margin-bottom: 0.5rem;
-            }
-            &:last-of-type {
-            content: "";
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-            }
-            }
-            input[type="text"], input[type="password"] {
-            display: block;
-            margin-bottom: 1rem;
-            padding: 0.5rem;
-            width: 100%;
-            }
-            }
             input[type="submit"], input[type="reset"] {
-            background-color: #007bff;
-            border-radius: 0.25rem;
-            border: none;
-            color: #fff;
-            cursor: pointer;
-            display: inline-block;
-            font-size: 1rem;
-            margin-right: 0.5rem;
-            padding: 0.5rem 1rem;
-            text-align: center;
-            text-decoration: none;
-            transition-duration: 0.3s;
-
+                background-color: #007bff;
+                border-radius: 0.25rem;
+                border: none;
+                color: #fff;
+                    cursor: pointer;
+                        display: inline-block;
+                        font-size: 1rem;
+                        margin-right: 0.5rem;
+                        padding: 0.5rem 1rem;
+                        text-align: center;
+                        text-decoration: none;
+                        transition-duration: 0.3s;
             &:hover {
-            background-color: #0062cc;
-            }
+                background-color: #0062cc;
+                }
             }
         }
     }

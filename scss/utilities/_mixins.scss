@@ -1,6 +1,8 @@
-@mixin flex{
+@mixin flex($wrap, $content, $style, $margin, $padding) {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
+    flex-wrap: $wrap;
+    justify-content: $content;
+    list-style: $style;
+    margin: $margin;
+    padding: $padding;
 }
